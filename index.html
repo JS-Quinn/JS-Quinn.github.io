@@ -1,1 +1,219 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joseph Quinn | Full Stack Web Design</title>
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <!--HEADER-->
+    <header role="banner" class="shadowed">
+        <div class="page-wrap clearfix">
+            <a href="#home" id="logo">Joseph Quinn</a>
+            <nav id="main-nav" role="navigation">
+                <ul>
+                    <li class>
+                        <a href="#portfolio-desc" class="anchorLink">Portfolio</a>
+                    </li>
+                    <li class>
+                        <a href="#about" class="anchorLink">About</a>
+                    </li>
+                    <li class>
+                        <a href="#contact" class="anchorLink">Contact</a>
+                    </li>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+                </ul>
+            </nav>
+            <a href="#nav" id="toggle">
+                <span aria-hidden="true" class="icon-menu"></span>
+            </a>
+        </div>
+    </header>
+    <!--HOME-->
+    <section id="home" data-speed="10" data-type "background" style="background-position: 50% 0px;">
+        <div class="page-wrap">
+            <h1 class style="font-size: 70px;">Joseph Quinn</h1>
+            <h2 class>
+                I'm a full stack web developer focused on buidling apps that are easy to understand and easy to use.
+            </h2>
+            <a class="button check-work" href="#portfolio-desc">See My Work</a>
+        </div>
+    </section>
+    <!--PORTFOLIO DESC-->
+    <section id="portfolio-desc">
+        <div class="page-wrap">
+            <h2>Portfolio</h2>
+            <p>Below you can see some projects I've been working on lately.</p>
+        </div>
+    </section>
+    <!--PORTFOLIO CONTENT-->
+    <section id="portfolio-content" role="main">
+        <!--PORTFOLIO 1-->
+        <article class="portfolio" role="article">
+                <div class="page-wrap clearfix">
+                    <div class="info-container">
+                        <h3>NYT Scraper</h3>
+                        <hr>
+                        <br>
+                        <p>
+                            A full MERN stack application built to search and retrieve articles from the New York Times API, 
+                            as well as save articles for later viewing.
+                        </p>
+                        <br>
+                    </div>
+                    <br>
+                    <figure>
+                        <img src="assets/images/nytscraper-demo.png" alt="BookScraper Image" width="960" height="560">
+                    </figure>
+                    <span>
+                        <button>
+                            <a href="https://github.com/JS-Quinn/NYTScraper" target="_blank">On GitHub</a>
+                        </button>
+                    </span>
+                    <span>
+                        <button>
+                            <a href="https://polar-earth-37649.herokuapp.com/" target="_blank">Deployed App</a>
+                        </button>
+                    </span>
+                </div>
+            </article>
+        <!--PORTFOLIO 2-->
+        <article class="portfolio" role="article">
+            <div class="page-wrap clearfix">
+                <div class="info-container">
+                    <h3>WeekNDR</h3>
+                    <hr>
+                    <br>
+                    <p>
+                        Dedicated to working for the weekend, WeekNDR is a budget tracking application that allows users to set goals and track their
+                        progress towards them.
+                    </p>
+                    <br>
+                </div>
+                <br>
+                <figure>
+                    <img src="assets/images/weekndr-demo.png" alt="WeekNDR Image" width="960" height="560">
+                </figure>
+                <span>
+                    <button>
+                        <a href="https://github.com/matthewdavidmorford/weekNDR" target="_blank">On GitHub</a>
+                    </button>
+                </span>
+                <span>
+                    <button>
+                        <a href="http://weekndr-budget.herokuapp.com/" target="_blank">Deployed App</a>
+                    </button>
+                </span>
+            </div>
+        </article>
+        <!--PORTFOLIO 3-->
+        <article class="portfolio" role="article">
+            <div class="page-wrap clearfix">
+                <div class="info-container">
+                    <h3>LocalScoop</h3>
+                    <hr>
+                    <br>
+                    <p>
+                        An API conglomeration, LocalSccop answers the age old question: Where can I find some local news, the current weather and
+                        the nearest ice cream shop?
+                    </p>
+                    <br>
+                </div>
+                <br>
+                <figure>
+                    <img src="assets/images/localscoop-demo.png" alt="LocalScoop Image" width="960" height="560">
+                </figure>
+                <span>
+                    <button>
+                        <a href="https://github.com/ashleyedds/LocalScoop" target="_blank">On GitHub</a>
+                    </button>
+                </span>
+                <span>
+                    <button>
+                        <a href="https://ashleyedds.github.io/LocalScoop" target="_blank">Deployed App</a>
+                    </button>
+                </span>
+            </div>
+        </article>
+    </section>
+    <!--ABOUT ME-->
+    <section id="about" role="main">
+        <div class="page-wrap">
+            <h2>About Me</h2>
+            <p>A full stack developer with experience building applications both for fun and utility, I am skilled in current
+                web development technogies like MongoDB, Express, React and Node.js. I enjoy working on projects with ambition,
+                for people who want to make the world a better place. </p>
+            <br>
+            <br>
+            <ol>
+                <li>
+                    <a>
+                        <img src="assets/images/mongo-logo.png">
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <img src="assets/images/express-logo.png">
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <img src="assets/images/react-logo.png">
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <img src="assets/images/node-logo.png">
+                    </a>
+                </li>
+            </ol>
+        </div>
+    </section>
+    <!--CONTACT-->
+    <section id="contact" role="main">
+        <div class="page-wrap">
+            <h2>You've seen mine
+                <br> Now show me yours
+            </h2>
+            <p>
+                If you have an idea in the works and need help making it a reality, just send me a direct message or contact me through the
+                social media sites listed below.
+            </p>
+            <a id="send-mail" class="button" href="mailto:josephshannonquinn@gmail.com">
+                Send an Email
+            </a>
+            <div class="social-links-container">
+                <ul id="social-links" class="clearfix">
+                    <li>
+                        <a href="https://github.com/JS-Quinn" target="_blank">Github</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/joseph-quinn-4ab472141/" target="_blank">LinkedIn</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--FOOTER-->
+    <footer>
+        <div class="page-wrap">
+            <p id="copy">
+                <span>&copy 2018
+                    <a href="mailto:josephshannonquinn@gmail.com">Joseph Quinn</a>
+                </span>
+            </p>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>
